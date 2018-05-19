@@ -1,9 +1,7 @@
 language: php
-node_js:
-  - "7.2"
 services:
   - mysql
-before_install:
+script:
   - mysql -u root --password="" < crud.sql
   - mysql -u root --password="" < refining_selection.sql
   - mysql -u root --password="" < string_functions.sql

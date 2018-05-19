@@ -45,7 +45,7 @@ FROM books;
 SELECT count(*)
 FROM books;
 
-SELECT count(DISTINCT (author_lname, author_fname))
+SELECT count(DISTINCT author_lname, author_fname) AS unique_authors
 FROM books;
 
 SELECT count(*)

@@ -5,3 +5,4 @@ script:
   - mysql -u root --password="" < crud.sql
   - mysql -u root --password="" < refining_selection.sql
   - mysql -u root --password="" < string_functions.sql
+  - mysql -u root --password="" < aggregate_functions.sql

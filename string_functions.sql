@@ -63,9 +63,9 @@ FROM books;
 SELECT reverse(author_fname)
 FROM books;
 
--- length:
+-- char_length:
 --
-SELECT concat(author_lname, ' is ', length(author_lname), ' characters long')
+SELECT concat(author_lname, ' is ', char_length(author_lname), ' characters long')
 FROM books;
 
 -- upper/lower:

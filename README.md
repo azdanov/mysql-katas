@@ -23,9 +23,9 @@ SQL string functions are used primarily for string manipulation, e.g combining s
 
 | [MySQL](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html) | [string_functions.sql](https://github.com/azdanov/mysql-katas/blob/master/string_functions.sql) |
 |:---:|:---:|
-| [CONCAT()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_concat) | [CONCAT()](https://github.com/azdanov/mysql-katas/blob/34b3689abac887dc86377a6f04f43f1b2623824f/string_functions.sql#L40)  |
-| [SUBSTRING()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_substring) | [SUBSTRING()](https://github.com/azdanov/mysql-katas/blob/34b3689abac887dc86377a6f04f43f1b2623824f/string_functions.sql#L48) |
-| [REPLACE()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_replace) | [REPLACE()](https://github.com/azdanov/mysql-katas/blob/34b3689abac887dc86377a6f04f43f1b2623824f/string_functions.sql#L56) |
-| [REVERSE()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_reverse) | [REVERSE()](https://github.com/azdanov/mysql-katas/blob/34b3689abac887dc86377a6f04f43f1b2623824f/string_functions.sql#L61) |
-| [CHAR_LENGTH()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_char-length) | [CHAR_LENGTH()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_char-length) |
-| [UPPER()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_upper) / [LOWER()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_lower) | [UPPER()/LOWER()](https://github.com/azdanov/mysql-katas/blob/34b3689abac887dc86377a6f04f43f1b2623824f/string_functions.sql#L71) |
+| [concat()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_concat) | [concat()](https://github.com/azdanov/mysql-katas/blob/34b3689abac887dc86377a6f04f43f1b2623824f/string_functions.sql#L40)  |
+| [substring()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_substring) | [substring()](https://github.com/azdanov/mysql-katas/blob/34b3689abac887dc86377a6f04f43f1b2623824f/string_functions.sql#L48) |
+| [replace()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_replace) | [replace()](https://github.com/azdanov/mysql-katas/blob/34b3689abac887dc86377a6f04f43f1b2623824f/string_functions.sql#L56) |
+| [reverse()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_reverse) | [reverse()](https://github.com/azdanov/mysql-katas/blob/34b3689abac887dc86377a6f04f43f1b2623824f/string_functions.sql#L61) |
+| [length()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_char-length) | [length()](https://github.com/azdanov/mysql-katas/blob/34b3689abac887dc86377a6f04f43f1b2623824f/string_functions.sql#L66) |
+| [upper()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_upper) / [lower()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_lower) | [upper()/lower()](https://github.com/azdanov/mysql-katas/blob/34b3689abac887dc86377a6f04f43f1b2623824f/string_functions.sql#L71) |

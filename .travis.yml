@@ -1,6 +1,8 @@
 language: minimal
 services:
   - mysql
+addons:
+  mariadb: '10.2'
 script:
   - mysql -u root --password="" < crud.sql
   - mysql -u root --password="" < refining_selection.sql

@@ -131,7 +131,7 @@ SELECT NOW();
 
 --
 
---
+-- Formatting Date:
 --
 CREATE DATABASE people;
 USE people;

@@ -4,7 +4,7 @@
 
 > Kata (型 or 形 literally: "form"), a Japanese word, are detailed choreographed patterns of movements practiced either solo or in pairs.
 
-Some simple exercises to practise SQL in MySql database.
+Some simple exercises to practise SQL in MySQL database.
 
 ## CRUD
 

@@ -70,7 +70,7 @@ MySQL has a set of native data types available to users. Such as numeric types, 
 
 ## Logical Expressions
 
-Logical operators are typically used with [Boolean](https://dev.mysql.com/doc/refman/5.7/en/boolean-literals.html) (logical) values. There are three logical operators in PostgreSQL: || (_OR_), && (_AND_), ! (_NOT_).
+Logical operators are typically used with [Boolean](https://dev.mysql.com/doc/refman/5.7/en/boolean-literals.html) (logical) values. There are three logical operators in MySQL: __||__ (_OR_), __&&__ (_AND_), __!__ (_NOT_).
 
 | [MySQL Logical](https://dev.mysql.com/doc/refman/5.7/en/logical-operators.html) / [MySQL Comparison](https://dev.mysql.com/doc/refman/5.7/en/comparison-operators.html) | [logical_expressions.sql](https://github.com/azdanov/mysql-katas/blob/master/logical_expressions.sql)                                          |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------: |

@@ -10,22 +10,60 @@ Some simple exercises to practise SQL in MySQL database.
 
 In computer programming, create, read, update, and delete (as an acronym CRUD) are the four basic functions of persistent storage.
 
-| [MySQL](https://dev.mysql.com/doc/refman/5.7/en/sql-syntax-data-manipulation.html) | [crud.sql](https://github.com/azdanov/mysql-katas/blob/master/crud.sql) |
-|:---:|:---:|
-| [INSERT](https://dev.mysql.com/doc/refman/5.7/en/insert.html) | [INSERT](https://github.com/azdanov/mysql-katas/blob/34b3689abac887dc86377a6f04f43f1b2623824f/crud.sql#L15)  |
-| [SELECT](https://dev.mysql.com/doc/refman/5.7/en/select.html) | [SELECT](https://github.com/azdanov/mysql-katas/blob/34b3689abac887dc86377a6f04f43f1b2623824f/crud.sql#L24) |
-| [UPDATE](https://dev.mysql.com/doc/refman/5.7/en/update.html) | [UPDATE](https://github.com/azdanov/mysql-katas/blob/34b3689abac887dc86377a6f04f43f1b2623824f/crud.sql#L54) |
-| [DELETE](https://dev.mysql.com/doc/refman/5.7/en/delete.html) | [DELETE](https://github.com/azdanov/mysql-katas/blob/34b3689abac887dc86377a6f04f43f1b2623824f/crud.sql#L64) |
+| [MySQL](https://dev.mysql.com/doc/refman/5.7/en/sql-syntax-data-manipulation.html) | [crud.sql](https://github.com/azdanov/mysql-katas/blob/master/crud.sql)                                     |
+| :--------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: |
+| [INSERT](https://dev.mysql.com/doc/refman/5.7/en/insert.html)                      | [INSERT](https://github.com/azdanov/mysql-katas/blob/34b3689abac887dc86377a6f04f43f1b2623824f/crud.sql#L15) |
+| [SELECT](https://dev.mysql.com/doc/refman/5.7/en/select.html)                      | [SELECT](https://github.com/azdanov/mysql-katas/blob/34b3689abac887dc86377a6f04f43f1b2623824f/crud.sql#L24) |
+| [UPDATE](https://dev.mysql.com/doc/refman/5.7/en/update.html)                      | [UPDATE](https://github.com/azdanov/mysql-katas/blob/34b3689abac887dc86377a6f04f43f1b2623824f/crud.sql#L54) |
+| [DELETE](https://dev.mysql.com/doc/refman/5.7/en/delete.html)                      | [DELETE](https://github.com/azdanov/mysql-katas/blob/34b3689abac887dc86377a6f04f43f1b2623824f/crud.sql#L64) |
 
 ## String Functions
 
 SQL string functions are used primarily for string manipulation, e.g combining strings together or replacing certain symbols or words.
 
-| [MySQL](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html) | [string_functions.sql](https://github.com/azdanov/mysql-katas/blob/master/string_functions.sql) |
-|:---:|:---:|
-| [concat()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_concat) | [concat()](https://github.com/azdanov/mysql-katas/blob/9f8b618fd2dec10a7f23fee15fbff85f91dde91c/string_functions.sql#L40)  |
-| [substring()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_substring) | [substring()](https://github.com/azdanov/mysql-katas/blob/9f8b618fd2dec10a7f23fee15fbff85f91dde91c/string_functions.sql#L48) |
-| [replace()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_replace) | [replace()](https://github.com/azdanov/mysql-katas/blob/9f8b618fd2dec10a7f23fee15fbff85f91dde91c/string_functions.sql#L56) |
-| [reverse()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_reverse) | [reverse()](https://github.com/azdanov/mysql-katas/blob/9f8b618fd2dec10a7f23fee15fbff85f91dde91c/string_functions.sql#L61) |
-| [char_length()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_char-length) | [char_length()](https://github.com/azdanov/mysql-katas/blob/9f8b618fd2dec10a7f23fee15fbff85f91dde91c/string_functions.sql#L66) |
+| [MySQL](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html)                                                                                                            | [string_functions.sql](https://github.com/azdanov/mysql-katas/blob/master/string_functions.sql)                                  |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------: |
+| [concat()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_concat)                                                                                         | [concat()](https://github.com/azdanov/mysql-katas/blob/9f8b618fd2dec10a7f23fee15fbff85f91dde91c/string_functions.sql#L40)        |
+| [substring()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_substring)                                                                                   | [substring()](https://github.com/azdanov/mysql-katas/blob/9f8b618fd2dec10a7f23fee15fbff85f91dde91c/string_functions.sql#L48)     |
+| [replace()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_replace)                                                                                       | [replace()](https://github.com/azdanov/mysql-katas/blob/9f8b618fd2dec10a7f23fee15fbff85f91dde91c/string_functions.sql#L56)       |
+| [reverse()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_reverse)                                                                                       | [reverse()](https://github.com/azdanov/mysql-katas/blob/9f8b618fd2dec10a7f23fee15fbff85f91dde91c/string_functions.sql#L61)       |
+| [char_length()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_char-length)                                                                               | [char_length()](https://github.com/azdanov/mysql-katas/blob/9f8b618fd2dec10a7f23fee15fbff85f91dde91c/string_functions.sql#L66)   |
 | [upper()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_upper) / [lower()](https://dev.mysql.com/doc/refman/5.7/en/string-functions.html#function_lower) | [upper()/lower()](https://github.com/azdanov/mysql-katas/blob/9f8b618fd2dec10a7f23fee15fbff85f91dde91c/string_functions.sql#L71) |
+
+## Refining Selections
+
+> Refine - make minor changes so as to improve or clarify.
+
+| [MySQL](https://dev.mysql.com/doc/refman/5.7/en/select.html)                     | [refining_selection.sql](https://github.com/azdanov/mysql-katas/blob/master/refining_selection.sql)                         |
+| :------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: |
+| [DISTINCT](https://dev.mysql.com/doc/refman/5.7/en/select.html)                  | [DISTINCT](https://github.com/azdanov/mysql-katas/blob/7dad586d339ba9a82b7ef72f36125a0be82ce767/refining_selection.sql#L43) |
+| [ORDER BY](https://dev.mysql.com/doc/refman/5.7/en/select.html)                  | [ORDER BY](https://github.com/azdanov/mysql-katas/blob/7dad586d339ba9a82b7ef72f36125a0be82ce767/refining_selection.sql#L53) |
+| [LIMIT](https://dev.mysql.com/doc/refman/5.7/en/select.html)                     | [LIMIT](https://github.com/azdanov/mysql-katas/blob/7dad586d339ba9a82b7ef72f36125a0be82ce767/refining_selection.sql#L94)    |
+| [LIKE](https://dev.mysql.com/doc/refman/5.7/en/string-comparison-functions.html) | [LIKE](https://github.com/azdanov/mysql-katas/blob/7dad586d339ba9a82b7ef72f36125a0be82ce767/refining_selection.sql#L118)    |
+
+## Aggregate Functions
+
+An aggregate function is a function where the values of multiple rows are grouped together to form a single value of more significant meaning or measurement such as a set, a bag or a list.
+
+| [MySQL](https://dev.mysql.com/doc/refman/5.7/en/group-by-functions.html)                                                                                                      | [aggregate_functions.sql](https://github.com/azdanov/mysql-katas/blob/master/aggregate_functions.sql)                           |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------: |
+| [count()](https://dev.mysql.com/doc/refman/5.7/en/group-by-functions.html#function_count)                                                                                     | [count()](https://github.com/azdanov/mysql-katas/blob/7dad586d339ba9a82b7ef72f36125a0be82ce767/aggregate_functions.sql#L43)     |
+| [GROUP BY](https://dev.mysql.com/doc/refman/5.7/en/group-by-handling.html)                                                                                                    | [GROUP BY](https://github.com/azdanov/mysql-katas/blob/7dad586d339ba9a82b7ef72f36125a0be82ce767/aggregate_functions.sql#L55)    |
+| [min()](https://dev.mysql.com/doc/refman/5.7/en/group-by-functions.html#function_min) / [max()](https://dev.mysql.com/doc/refman/5.7/en/group-by-functions.html#function_max) | [min()/max()](https://github.com/azdanov/mysql-katas/blob/7dad586d339ba9a82b7ef72f36125a0be82ce767/aggregate_functions.sql#L72) |
+| [sum()](https://dev.mysql.com/doc/refman/5.7/en/group-by-functions.html#function_sum)                                                                                         | [sum()](https://github.com/azdanov/mysql-katas/blob/7dad586d339ba9a82b7ef72f36125a0be82ce767/aggregate_functions.sql#L107)      |
+| [avg()](https://dev.mysql.com/doc/refman/5.7/en/group-by-functions.html#function_avg)                                                                                         | [avg()](https://github.com/azdanov/mysql-katas/blob/7dad586d339ba9a82b7ef72f36125a0be82ce767/aggregate_functions.sql#L119)      |
+
+## Data Types
+
+MySQL has a set of native data types available to users. Such as numeric types, date and time types, string (character and byte) types, and spatial types.
+
+| [MySQL](https://dev.mysql.com/doc/refman/5.7/en/data-types.html)                                            | [data_types.sql](https://github.com/azdanov/mysql-katas/blob/master/data_types.sql)                                                             |
+| :---------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
+| [CHAR/VARCHAR](https://dev.mysql.com/doc/refman/5.7/en/char.html)                                           | [CHAR/VARCHAR](https://github.com/azdanov/mysql-katas/blob/7dad586d339ba9a82b7ef72f36125a0be82ce767/data_types.sql#L1)                          |
+| [DECIMAL](https://dev.mysql.com/doc/refman/5.7/en/fixed-point-types.html)                                   | [DECIMAL](https://github.com/azdanov/mysql-katas/blob/7dad586d339ba9a82b7ef72f36125a0be82ce767/data_types.sql#L32)                              |
+| [FLOAT/DOUBLE](https://dev.mysql.com/doc/refman/5.7/en/floating-point-types.html)                           | [FLOAT/DOUBLE](https://github.com/azdanov/mysql-katas/blob/7dad586d339ba9a82b7ef72f36125a0be82ce767/data_types.sql#L69)                         |
+| [DATE/TIME](https://dev.mysql.com/doc/refman/5.7/en/date-and-time-types.html)                               | [DATE/TIME](https://github.com/azdanov/mysql-katas/blob/7dad586d339ba9a82b7ef72f36125a0be82ce767/data_types.sql#L98)                            |
+| [current_date()/current_time()/now()](https://dev.mysql.com/doc/refman/5.7/en/date-and-time-functions.html) | [current_date()/current_time()/now()](https://github.com/azdanov/mysql-katas/blob/7dad586d339ba9a82b7ef72f36125a0be82ce767/data_types.sql#L124) |
+| [Date Formatting](https://dev.mysql.com/doc/refman/5.7/en/date-and-time-functions.html)                     | [Date Formatting](https://github.com/azdanov/mysql-katas/blob/7dad586d339ba9a82b7ef72f36125a0be82ce767/data_types.sql#L134)                     |
+| [Date Math](https://dev.mysql.com/doc/refman/5.7/en/date-and-time-functions.html)                           | [Date Math](https://github.com/azdanov/mysql-katas/blob/7dad586d339ba9a82b7ef72f36125a0be82ce767/data_types.sql#L240)                           |
+| [TIMESTAMP](https://dev.mysql.com/doc/refman/5.7/en/datetime.html)                                          | [TIMESTAMP](https://github.com/azdanov/mysql-katas/blob/7dad586d339ba9a82b7ef72f36125a0be82ce767/data_types.sql#L303)                           |

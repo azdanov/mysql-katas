@@ -7,3 +7,4 @@ script:
   - mysql -u root --password="" < string_functions.sql
   - mysql -u root --password="" < aggregate_functions.sql
   - mysql -u root --password="" < data_types.sql
+  - mysql -u root --password="" < logical_expressions.sql

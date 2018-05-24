@@ -220,8 +220,6 @@ FROM customers
 SELECT
   ifnull(first_name, 'MISSING') AS first,
   ifnull(last_name, 'USER')     AS last,
-  order_date,
-  amount,
   sum(amount)
 FROM customers
   RIGHT JOIN orders

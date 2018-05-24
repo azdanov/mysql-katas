@@ -96,3 +96,10 @@ In a one-to-many relationship, one record in a table can be associated with one 
 | [JOIN](https://dev.mysql.com/doc/refman/5.7/en/join.html)                                                                    | [JOIN](https://github.com/azdanov/mysql-katas/blob/master/one_to_many.sql#L67)               |
 | [IFNULL()](https://dev.mysql.com/doc/refman/5.7/en/control-flow-functions.html#function_ifnull)                              | [IFNULL()](https://github.com/azdanov/mysql-katas/blob/master/one_to_many.sql#L156)          |
 | [ON DELETE CASCADE](https://dev.mysql.com/doc/refman/5.7/en/create-table-foreign-keys.html#foreign-keys-referential-actions) | [ON DELETE CASCADE](https://github.com/azdanov/mysql-katas/blob/master/one_to_many.sql#L233) |
+
+## Many-to-Many
+
+A many-to-many relationship occurs when multiple records in a table are associated with multiple records in another table. For example, a many-to-many relationship exists between customers and products: customers can purchase various products, and products can be purchased by many customers.
+
+| [Many-to-Many](https://fmhelp.filemaker.com/help/16/fmp/en/index.html#page/FMP_Help%2Fmany-to-many-relationships.html%23) | [many_to_many.sql](https://github.com/azdanov/mysql-katas/blob/master/many_to_many.sql)        |
+| :----------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------: |
